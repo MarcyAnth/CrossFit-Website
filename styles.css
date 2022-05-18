@@ -1,0 +1,542 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  background-color: black;
+  font-family: 'Koulen';
+}
+
+.logo{
+  padding-left: 2em;
+}
+
+.logo-text{
+  font-size: 2em;
+}
+
+.menubar{
+  width: 45%;
+  margin-left: 8.5em;
+}
+
+.list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-items a{
+  color: white;
+  font-family: cursive;
+  font-size: 0.9em;
+  transition: 0.4s;
+  font-family: 'Koulen';
+}
+
+.list-items a:hover{
+  color: #2596be;
+}
+.cart{
+  padding-right: 2em;
+  position: relative;
+}
+
+.cart .number-of-items{
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  left: 18px;
+  top: -7px;
+  background: #2596be;
+  height: 20px;
+  width: 20px;
+  border-radius: 7px;
+}
+
+.number-of-items .noi{
+  font-size: 0.7em;
+}
+
+.fa-shopping-cart{
+  font-size:1.5em;
+  cursor: pointer;
+}
+
+.burger{
+  height: 28px;
+  width: 32px;
+  display: none;
+}
+
+.layer1,.layer2,.layer3{
+  background: white;
+  height: 4px;
+  margin-top: 4px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+.section1 {
+  height: calc(100vh - 10vh);
+  width: 100%;
+  background: url("images/gym.bg.jpg") center center/cover;
+  top: 0;
+  left:0;
+  z-index: -1;
+}
+
+.section1 .banner{
+  height: 170px;
+  width: 800px;
+  background: rgba(0,0,0,0.7);
+  position: relative;
+  top: 30%;
+  left: 9%;
+  padding:4px;
+  border-radius: 2%;
+
+}
+
+.banner h1{
+  font-family: 'Koulen';
+  color: white;
+  font-size: 50px;
+  padding: 0.5rem;
+}
+
+.btn {
+  font-size: 30px;
+  color: black;
+  font-family: 'Koulen';
+  padding: 0.5rem;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.section2{
+  margin-top: 5px;
+  height: calc(100vh - 10vh);
+  width: 100%;
+  background: url("images/image.dark.jpg") center center/cover;
+  background-color: black;
+  top: 0;
+  left:0;
+  z-index: -1;;
+
+
+}
+
+
+.section2 .banner{
+  height: 170px;
+  width: 780px;
+  background: rgba(0,0,0,0.7);
+  position: relative;
+  top: 10%;
+  left: 50%;
+  padding:4px;
+  border-radius: 2%;
+}
+
+.section2 .banner h1{
+  text-align: left;
+}
+
+.container-workout{
+  font-family: 'Koulen';
+  text-align: center;
+  color: white;
+  margin-top: 20rem;
+
+}
+
+
+.card{
+  background-color: #2596be;
+  border-radius: 5%;
+  text-align: center;
+  padding: 5%;
+}
+
+
+.section3{
+  margin-top: 5px;
+  height: calc(100vh - 10vh);
+  width: 100%;
+
+  background: url("images/cfdark.jpg") center center/cover;
+  background-color: black;
+  top: 0;
+  left:0;
+  z-index: -1;
+}
+
+
+
+.section3 .banner{
+  height: 170px;
+  width: 800px;
+  background: rgba(0,0,0,0.7);
+  position: relative;
+  top: 10%;
+  left: 9%;
+  padding:4px;
+  border-radius: 2%;
+
+}
+
+.section3 .banner h1{
+  text-align: left;
+}
+
+
+
+.container-tour{
+  text-align: center;
+  position: relative;
+  top: 20%;
+  right: 11%;
+}
+
+.tour-text{
+  position: relative;
+  left: 70%;
+  font-size: 100px !important;
+  font-family: 'Koulen';
+  color: #2596be;
+  text-align: center;
+}
+
+.section1contact{
+  margin-top: 5px;
+  height: calc(100vh - 10vh);
+  width: 100%;
+  background: url("images/contract_image.jpg") center center/cover;
+  background-color: black;
+  top: 0;
+  left:0;
+  z-index: -1;
+  font-family: 'Koulen';
+  color: white;
+
+}
+
+
+.container-contact{
+
+  font-family: 'Koulen';
+
+}
+
+.submit-btn{
+  margin-top: 10px;
+  color: black;
+}
+
+.section1class{
+  margin-top: 5px;
+  height: calc(100vh - 10vh);
+  width: 100%;
+  background: url("images/ntc.jpg");
+  background-size: cover;
+  background-color: black;
+  top: 0;
+  left:0;
+  z-index: -1;
+  font-family: 'Koulen';
+  color: white;
+}
+
+.ntc{
+  text-align: center;
+}
+
+.ntca{
+  font-size: 40px;
+}
+
+.section1philo{
+  margin-top: 5px;
+  height: calc(100vh - 10vh);
+  width: 100%;
+  background: url("images/ntc.jpg");
+  background-size: cover;
+  background-color: black;
+  top: 5%;
+  left:0;
+  z-index: -1;
+  font-family: 'Koulen';
+  color: white;
+  text-align: center;
+}
+
+.bannerphilo{
+  height: 50%;
+  width: 90%;
+  background: rgba(0,0,0,0.7);
+  position: relative;
+  top: 5%;
+  left: 5%;
+  text-align: center;
+  padding:4px;
+  margin-bottom: 5px;
+  border-radius: 2%;
+}
+
+.containerphilo{
+  top:5%;
+  padding-top: 5%;
+
+}
+
+.wwsf{
+  padding-top: 1%;
+  font-size: 50px;
+}
+
+.containerfinal{
+  padding-top: 10%;
+  margin-top: 10%;
+
+}
+
+.h1final{
+  padding-top: 12rem;
+
+}
+
+/* menubar */
+
+
+
+
+.menu-sidebar{
+  display:none;
+}
+
+.googlemap{
+  padding-top: 15px;
+}
+
+
+.cart-sidebar{
+  background: #2596be;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 450px;
+  height: 100vh;
+  z-index: 10;
+  transition: all 0.3s linear;
+  transform: translateX(100%);
+  overflow: scroll;
+  font-family: 'Koulen';
+  border-radius: 20px;
+  box-shadow: 10px 10px 8px 10px #2596be;
+}
+
+.cart-sidebar img{
+  width: 10em;
+  height: 7em;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  border-radius: 10%;
+
+}
+
+.cart-sidebar .cart{
+  padding: 0;
+
+}
+
+.cart .close-cart{
+  font-size: 1.3em;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.fa-times{
+  margin-top:0.5em;
+}
+
+
+.cart-title{
+  text-align: center;
+  color: white;
+}
+
+.counter{
+ width: 15%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.btn-count-plus, .btn-count-minus{
+ width: 20px;
+ height: 20px;
+ border-radius: 50%;
+ background-color: #d9d9d9;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 20px;
+ font-family: 'Titillium', cursive;
+ font-weight: 900;
+ color: #202020;
+ cursor: pointer;
+}
+
+.count{
+ font-size: 20px;
+ font-family: ‘Open Sans’;
+ font-weight: 900;
+ color: #202020;
+}
+
+.total-sum {
+  text-align: center;
+  margin: 1em 0 0.5em 0;
+  color: white;
+}
+
+
+@media screen and (max-width: 768px){
+  .logo{
+    padding-left: 0;
+  }
+
+  .cart{
+    padding-right: 2em;
+  }
+  .menubar{
+    display: none;
+  }
+  .burger{
+    margin-left: 2em;
+    display: block;
+  }
+  .section1 .banner h1 {
+    font-size:  1.5em;
+  }
+  .btn{
+    font-size: 0.6em;
+    padding: 1em 2em;
+  }
+
+  .section2 .title h1 {
+    font-size: 1.5em;
+  }
+
+  .menu-sidebar{
+    display: block;
+    position: fixed;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 11;
+    background: white;
+    overflow: hidden;
+    transform: translate(-100%);
+    transition: 0.3s linear;
+  }
+
+  .menu-menubar{
+    display:flex;
+    height: 80%;
+    justify-content: center;
+  }
+
+  .menu-list{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .menubar-sidebar .close-menu{
+    position: absolute;
+    right: 30px;
+    font-size: 1.4em;
+  }
+
+
+  .menu-list-items a:hover{
+    color: yellow;
+  }
+}
+
+@media screen and (max-width: 480px){
+  *{
+    font-size: 16px;
+  }
+
+  .section1 .banner{
+    width: 280px;
+    height: 100px;
+  }
+
+  .section1 .banner .h1{
+    font-size: 1.2em;
+  }
+
+  .section2 .banner{
+    width: 280px;
+    height: 100px;
+
+  }
+
+  .section2 .banner .h1{
+    font-size: 1.2em;
+
+  }
+
+  .burger{
+    margin-left: 1em;
+    display: block;
+    width: 30;
+  }
+
+  .cart-siderbar{
+    width: 100%;
+  }
+
+  .product{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+}

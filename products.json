@@ -1,0 +1,28 @@
+{
+  "items":[
+    {
+      "sys": {"id":"1"},
+      "fields":{
+        "title": "Basic Membership",
+        "price": 79.99,
+        "image": {"fields":{"file":{"url": "images/noah olsen.jpg"}}}
+      }
+    },
+    {
+      "sys": {"id":"2"},
+      "fields":{
+        "title": "Intermediate Membership",
+        "price": 99.99,
+        "image": {"fields":{"file":{"url": "images/jb.jpg"}}}
+      }
+    },
+    {
+      "sys": {"id":"3"},
+      "fields":{
+        "title": "Advanced Membership",
+        "price": 129.99,
+        "image": {"fields":{"file":{"url": "images/matty.jpg"}}}
+      }
+    }
+  ]
+}
