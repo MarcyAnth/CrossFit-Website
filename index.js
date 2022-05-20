@@ -57,18 +57,6 @@ btnCountMinus.addEventListener("click",function(){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 burger.addEventListener("click", function() {
   menuSidebar.style.transform = "translate(0%)"
 })
